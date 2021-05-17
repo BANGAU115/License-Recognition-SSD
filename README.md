@@ -1,7 +1,10 @@
 # License-Recognition-SSD
 Bài này sẽ giới thiệu phần License Recognition:
+
     Ở đây mình dùng MobileNetSSD model
+
 Dependencies
+
     pytorch
     numpy
     opencv
@@ -12,7 +15,8 @@ Quick start
 - Tạo thư mục models và Download model theo file model.txt về thư mục vừa tạo
 - Tạo thư mục images/images_long/test và copy hình ảnh muốn test vào thư mục đó
 - Chạy câu lệnh sau: python run_ssd_example.py mb2-ssd-lite  models/license_model.pth models/labels.txt images
-- 
+
+
 Train:
 
 python train_ssd.py --dataset-type voc  --datasets data/voc_plate_ocr_dataset/  --net mb2-ssd-lite --base-net mb2-imagenet-71_8.pth  --scheduler cosine --lr 0.01 --t-max 100 --validation-epochs 5 --num-epochs 150 
