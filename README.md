@@ -30,4 +30,5 @@ Project nhận diện biển số xe này của mình có thể hoạt động t
 References
 
 Mobilenetv2: https://arxiv.org/pdf/1801.04381.pdf
+
 SSD: https://arxiv.org/pdf/1512.02325.pdf
