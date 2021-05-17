@@ -1,7 +1,7 @@
 # License-Recognition-SSD
 Bài này sẽ giới thiệu phần License Recognition:
 
-    Ở đây mình dùng MobileNetSSD model
+    Ở đây mình dùng MobileNet V2 SSD Lite model
 
 Dependencies
 
